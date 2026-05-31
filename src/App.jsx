@@ -33,6 +33,7 @@ export default function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Navbar />
+      <BackToTop />
       <AnimatedRoutes />
     </BrowserRouter>
   )
