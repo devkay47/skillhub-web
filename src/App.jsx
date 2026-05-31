@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
 import Navbar from './components/Navbar.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 import BackToTop from './components/BackToTop.jsx'
