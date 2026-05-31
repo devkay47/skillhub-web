@@ -1,7 +1,5 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
-import ScrollToTop from './components/ScrollToTop.jsx'
-import BackToTop from './components/BackToTop.jsx'
 import Home from './pages/Home.jsx'
 import Browse from './pages/Browse.jsx'
 import SkillDetail from './pages/SkillDetail.jsx'
@@ -31,9 +29,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop />
       <Navbar />
-      <BackToTop />
       <AnimatedRoutes />
     </BrowserRouter>
   )
